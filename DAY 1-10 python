@@ -1,0 +1,268 @@
+mkdir new2
+mkdir new3
+mkdir new4
+print("hello world")
+
+pwd
+ls
+clear
+cd F://
+pwd
+ls
+clear
+
+mkdir "command line practice"
+mkdir command_line
+mkdir command line practice
+cd command_line
+pwd
+ls
+
+touch new_document.txt
+touch hello.py
+touch hello.java
+
+cd ..
+cd "command line practice"
+touch new_file.py
+cd..
+cd command_line/
+ls
+
+rm new_document.txt
+ls
+rm hello.java
+ls
+
+cd ..
+rm -rf command_line/
+rm -rf "command line practice"/
+
+pwd
+mkdir "new python course"
+cd "new python course"
+clear
+
+touch hello.py
+code hello.py
+
+print("hello world")
+
+python hello.py
+
+pwd
+cd F://
+cd~
+clear
+
+cd F://
+ls
+clear
+mkdir "commnand line practice 2"
+cd "commnand line practice 2"/
+touch new_file.py
+ls
+new_file.py
+
+code new_file.py
+code new_file2.py
+rm new_file2.py
+clear
+
+ls
+mv new_file.py file1.py
+ls
+code file1.py
+clear
+
+mkdir new_folder
+lsmv file1.py./new_folder
+ls
+clear
+
+cd new_folder/
+ls
+mv file1.py
+ls
+cd ..
+ls
+clear
+
+cp file1.py ./new_folder/
+ls
+cd new_folder/
+ls
+clear
+
+cd ..
+ls
+code file1.py
+
+print("hello world")
+
+python file1.py
+
+upwrd arrow
+
+print("harshit vashistha")
+
+
+print()
+
+print("Hello World")
+print('Hello World')
+
+print("hello world")
+
+python print_func.py
+
+print("hello world")
+print('hello world')
+python print_func.py
+
+print()
+
+print("hello 'world' world")
+python print_func.py
+
+print("hello 'world' world")
+print('hello "world" world')
+python print_func.py
+
+print("hello 'world' world")
+print('hello "world" world')
+print('hello 'world' world')
+python print_func.py
+
+print("hello 'world' world")
+print('I'm harshit')
+python print_func.py
+
+print("hello 'world' world")
+print("I'm harshit")
+python print_func.py
+
+print("hello "world" world")
+print("I'm harshit")
+python print_func.py
+
+
+print("hello "world" world")
+python print_func.py
+
+print("hello \"world\" world")
+python print_func.py
+
+print("hello \"world\" world")
+print('I\'m harshit')
+
+print("line A")
+print("line B")
+python print_func.py
+
+print("line A\nline B")
+python print_func.py
+
+print("line A\nline B\n line C")
+python print_func.py
+
+print("name\tHarsht")
+print("this is \backslash")
+
+print("this is backslash\")
+
+print("this is backslash\\")
+print("this is backslash\\\\")
+print("hell\blo")
+
+
+
+
+
+
+41-45
+
+#strings
+name="harshit"
+#string indexing
+print(name[1])
+print(name[-1])
+#string slicing
+print(name[0:5])
+print(name[0:-2])
+print(name[0:])
+print(name[2:])
+print(name[-4:])
+print(name[:-2])
+print(name[0:5:1])
+print(name[0:5:2])
+print(name[-1:0:-1])
+#take user input
+age=input("enter your age")
+print(age)
+#take two user input
+age=int(input("enter your age"))
+print(age)
+
+user_name,age=input("Enter name and age: ").split()
+print(user_name)
+print(age)
+user_name,age=input("Enter name and age: ").split(",")
+print(user_name)
+print(age)
+#len function
+len(name)
+print(len(name))
+#upper, lower, title
+print(name.lower())
+print(name.upper())
+print(name.title())
+#find, replace,center method
+name="hArShitr"
+print(name.find("r"))
+print(name.find("r",1))
+r_pos=name.find("r")
+r_pos_2=name.find("r",r_pos+1)
+print(r_pos_2)
+
+
+name="harshit"
+#*harshit*
+print(name.center(11,"*"))
+print(name.center(15,"*"))
+print(name.center(14,"*"))
+
+print(name[2])
+
+name[2]="s"
+
+print(name.replace("h", "H"))
+print(name.replace("h", "H",1))
+print(name)
+
+
+#syntax
+#if condition:
+#  #code #if condition is true then code will execute
+#  #code
+
+age=input("enter your age:")
+age=int(age)
+if age>=14:
+	print("line a")
+	print("you are above 14")
+	
+#pass statement
+x=18
+if x>18:
+	pass
+
+age=input("enter your age:")
+age=int(age)
+if age>=14:
+	print("line a")
+	print("you are above 14")
+else:
+	print("sorry ,you can't play")
+	
+if winninr_number==guessed_number
