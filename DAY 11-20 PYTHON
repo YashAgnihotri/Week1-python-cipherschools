@@ -1,0 +1,88 @@
+# this is comment
+print("line A\nline B \n line C") # /n is for new line
+# /t is for tab
+print("ame\tHarshit")
+print("this is double backlash\\\\") # \\ is for backlash
+print("hell\blo")
+#comments
+#print
+
+# output : line A \n line B
+print("line A \\n line B")
+print("line B \\t line b")
+print("this is 4 backlash \\\\\\\\")
+#output : \" \'
+print(" \\\" \\\' ")
+# \' - '(b)
+#\\ - \ (a)
+# \\\' - \'
+
+print("this is \\\\ double backlash")
+print("these are /\\/\\/\\/\\ mountains")
+print("he is\tawesome")
+print(" \\\" \\n \\t \\\' ")
+#\" = "
+# \\ = \
+# \\\" = \"
+
+print(r"line A \" line B")
+
+print("\U0001f602")
+print("\U0001f604")
+print("\U0001f618")
+
+print(2+3*4)
+print(2/4)
+print(4/2)
+print(4//2)
+print(2//4)
+print(2**3)
+print(2**0.5)
+print(round(2**0.5,4))
+print(2*3/2*6-4(3-4/2))
+print(3%2)
+print((2+3)/2)
+print((2+3)*5/2%6)
+print(12.5%6)
+print(2*3*2)
+print(2**9)
+
+# number1 = 2
+print(number1)
+number1 = 4
+print(number1)
+string,number
+name = "harshit"
+print(name)
+name - 123
+print(name)
+#rule one
+# 1number = 4
+# letter,_ ..........first leter
+# _name ="harshit"
+#u1sd = 34
+user_one_name = "Rohit" #snake case writing
+useronename = "Mohit" # camel case writing
+
+# ******summary of chapter one********
+
+#print function
+print("hello hello")
+#escape sequence
+# escape sequence as normal text
+# python as calculator
+# variables
+# naming rules for variables
+# convention for variable naming
+
+#strings
+# collection of characters inside single quotes
+
+first_name = "harshit"
+last_name = " vashistha"
+full_name = first_name + " " + last_name
+print(full_name)
+print(first_name + 3) error
+# print(first_name +"3") no error
+# print(first_name + str(3)) # no error
+print(first_name * 3)
