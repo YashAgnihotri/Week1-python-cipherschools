@@ -1,0 +1,103 @@
+
+
+#user input
+#input function
+name=input("type your name")
+print("hello"+name)
+# string
+age=input("What is your age ?")
+# 24 , "24"
+print("your age is" + age)
+
+
+number_one = int(input("enter first number")) #4
+number_two = int(input("enter second number")) #4
+total = number_one + number_two  #4
+print("total is"+str(total))
+#total="4"+"4"=44
+
+
+#str
+4 --->"4"
+
+#int
+#"4" ---> 4
+
+#float
+"4" --> 4.0
+
+number1 = str(4)
+number2 = float("44")
+number3 = int("33")
+print(number2+number3)
+
+
+name,age ="Harshit",24
+print("hello"+name+"your age is"+age)
+x=y=z=1
+print(x+y+z)
+
+
+#name = input("enter your name: ")
+#age = input("enter your age: ")
+name,age = input("enter your name and age ").split(",")
+print(name)
+print(age)
+
+
+name="harshit"
+age=
+print("hello" + name + "your age is" +  str(age)) #ugly syntax
+#string formatting
+#python 2
+#python 3
+#python 3.6 (best)
+
+print("Hello {} your age is {}".format(name,age)) #python 3
+
+#3.6
+print(f"hello {} name your age is {age + 2}")
+
+
+num1 = input("enter first number :")
+num2 = input("enter second number :")
+num3 = input("enter third number :")
+#(int(num1) + int(num2) + int(num3)) /3
+print(f"average of three numbers : {(int(num1) + int(num2) +int(num3)) /3")
+
+#num1 = input("enter first number :")
+#num2 = input("enter second number :")
+#num3 = input("enter third number :")
+num1,num2,num3 =input("enter three numbers comma seprated: ").split(",")
+
+
+
+#string indexing
+language ="python"
+
+#positions(index number)
+
+#p = 0 , -6
+#y = 1 , -5
+#t = 2 , -4
+#h = 3 , -3
+#o = 4 , -2
+#n = 5 , -1
+
+print(language[4])
+
+
+# slicing / selecting sub sequences
+lang = "python"
+# print(lang[4])
+# syntax - [start argument : stop argument - 1]
+print(lang[2:4])
+
+
+#slicing / selecting sub sequences 
+lang = "Python"
+#syntax - [start argument : stop argument -1 :step]
+print("Harshit"[0:5:1])
+#print("Harshit"[0::3])
+#print("Harshit"[5::-1])
+#print("Harshit"[::-1]) trick
